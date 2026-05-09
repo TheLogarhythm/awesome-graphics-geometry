@@ -33,6 +33,15 @@ real-time rendering, ray tracing, and massive geometry systems.
 6. Track frontiers such as ray-tracing-aware LOD, dynamic massive geometry,
    neural geometry, and differentiable geometry processing.
 
+## Notes
+
+- [Geometry Processing Foundations](notes/geometry-processing-foundations.md)
+  - First research notebook on meshes, discrete differential geometry,
+    simplification, remeshing, parameterization, and deformation.
+- [BVH And Acceleration Structures](notes/bvh-and-acceleration-structures.md)
+  - First rendering-geometry notebook on bounding volumes, BVHs, SAH, traversal,
+    refitting, and CPU/GPU tradeoffs.
+
 ## Foundations
 
 - [Stanford CS468: Geometry Processing Algorithms](https://graphics.stanford.edu/courses/cs468-10-fall/)
