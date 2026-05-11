@@ -78,12 +78,7 @@ mesh operators.
 
 Recommended resources:
 
-- Stanford CS468 2010: Differential Geometry.
-- Stanford CS468 2012: Differential Geometry and Discrete Exterior Calculus on
-  Meshes.
-- Stanford CS468 2013: Differential Geometry for Computer Science, especially
-  discrete surfaces, computing curvature, finite elements/Laplacians, and
-  discrete exterior calculus.
+- Stanford CS468 2010: [Differential Geometry](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/05_Diff_Geo.pdf).
 - CMU DDG: Discrete Differential Geometry: An Applied Introduction.
 - Polygon Mesh Processing: Chapter 3, Differential Geometry.
 
@@ -101,8 +96,7 @@ preservation, and the common shrinkage/detail-loss tradeoff.
 
 Recommended resources:
 
-- Stanford CS468 2010: Smoothing.
-- Stanford CS468 2012: Smoothing and Linear Solvers.
+- Stanford CS468 2010: [Smoothing](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/06_smoothing.pdf) and [Linear Solvers](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/07_Linear%20solvers.pdf)
 - Polygon Mesh Processing: Chapter 4, Smoothing.
 - Polygon Mesh Processing: Appendix A, Numerics, if the method uses sparse
   linear systems.
@@ -122,8 +116,7 @@ simplification.
 
 Recommended resources:
 
-- Stanford CS468 2010: [Simplification](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/08_Simplification.pdf) and Progressive Meshes.
-- Stanford CS468 2012: Simplification and Progressive Meshes.
+- Stanford CS468 2010: [Simplification](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/08_Simplification.pdf) and [Progressive Meshes](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/09_Progressive_Meshes.pdf).
 - Polygon Mesh Processing: Chapter 7, Simplification & Approximation.
 - For rendering research later: papers on view-dependent LOD, meshlets,
   cluster hierarchies, and ray-tracing-aware LOD.
@@ -270,6 +263,6 @@ The study loop should be:
 - [Stanford CS468 2010: Geometry Processing Algorithms](https://graphics.stanford.edu/courses/cs468-10-fall/)
 - [Stanford CS468 2012: Geometry Processing Algorithms](https://graphics.stanford.edu/courses/cs468-12-spring/)
 - [Stanford CS468 2013: Differential Geometry for Computer Science](https://graphics.stanford.edu/courses/cs468-13-spring/)
-- [Discrete Differential Geometry: An Applied Introduction](https://www.cs.cmu.edu/~kmcrane/Projects/DDG/)
+- [CMU Discrete Differential Geometry: An Applied Introduction](https://www.cs.cmu.edu/~kmcrane/Projects/DDG/)
 - [Polygon Mesh Processing](https://www.pmp-book.org/)
 - [Skinning: Real-time Shape Deformation](https://skinning.org/)
