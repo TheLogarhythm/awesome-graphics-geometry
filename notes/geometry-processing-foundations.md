@@ -138,7 +138,6 @@ surfaces.
 Recommended resources:
 
 - Stanford CS468 2010: [Subdivision](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/10_Subdivision.pdf).
-- Stanford CS468 2012: Subdivision.
 - Polygon Mesh Processing: use the surface representation and remeshing
   chapters as background; supplement with dedicated Catmull-Clark and Loop
   subdivision references.
@@ -158,11 +157,8 @@ maps, barycentric mapping, and distortion analysis.
 
 Recommended resources:
 
-- Stanford CS468 2010: Parameterization I and II.
-- Stanford CS468 2012: Parameterization I and II.
+- Stanford CS468 2010: [Parameterization I](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/12_Parameterization1.pdf) and [Parameterzation II](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/13_Parameterization2.pdf).
 - Polygon Mesh Processing: Chapter 5, Parameterization.
-- Stanford CS468 2013: Conformal Geometry, if you want a deeper differential
-  geometry route.
 
 What to watch for in papers:
 
@@ -180,8 +176,7 @@ remeshing.
 
 Recommended resources:
 
-- Stanford CS468 2010: Remeshing I and II.
-- Stanford CS468 2012: Remeshing I and II.
+- Stanford CS468 2010: [Remeshing I](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/14_Remeshing1.pdf) and [Remeshing II](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/15_Remeshing2.pdf).
 - Polygon Mesh Processing: Chapter 6, Remeshing.
 - Read after mesh data structures, differential geometry, and parameterization.
 
@@ -201,10 +196,7 @@ detail preservation.
 
 Recommended resources:
 
-- Stanford CS468 2010: [Deformation I](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/18_Deformation_1.pdf) and Deformation II.
-- Stanford CS468 2012: [Deformation I](https://graphics.stanford.edu/courses/cs468-12-spring/LectureSlides/15_Deformation.pdf) and Deformation II.
-- Stanford CS468 2013: Surface Deformation: Theory and Surface Deformation:
-  Practice.
+- Stanford CS468 2010: [Deformation I](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/18_Deformation_1.pdf) and [Deformation II](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/19_Deformation_2.pdf)
 - Polygon Mesh Processing: Chapter 9, Deformation.
 - Skinning.org for animation-oriented deformation and skinning.
 
@@ -222,10 +214,7 @@ geometry can be analyzed through operators instead of only through triangles.
 
 Recommended resources:
 
-- Stanford CS468 2010: Spectral Methods I and II.
-- Stanford CS468 2013: Isometry Invariance and Spectral Techniques.
-- Stanford CS468 2014: Data-Driven Shape Analysis, if you later want matching,
-  retrieval, segmentation, and descriptors.
+- Stanford CS468 2010: [Spectral Methods I](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/16_spectral_methods1.pdf) and [Spectral Methods II](https://graphics.stanford.edu/courses/cs468-10-fall/LectureSlides/17_spectral_methods2.pdf).
 - Polygon Mesh Processing: Chapter 3 and Chapter 4 as prerequisite material.
 
 What to watch for in papers:
@@ -235,34 +224,9 @@ What to watch for in papers:
 - How sensitive is it to remeshing, topology changes, noise, and boundaries?
 - Does the method scale to production-sized geometry?
 
-## Mental Model
-
-Use this note as a routing table:
-
-- If a paper edits mesh topology, review mesh data structures, remeshing, and
-  simplification.
-- If a paper uses curvature, gradients, geodesics, or Laplacians, review
-  discrete differential geometry.
-- If a paper builds LODs, clusters, or virtualized geometry, review
-  simplification, remeshing, and parameterization.
-- If a paper handles animated geometry, review deformation, skinning, and BVH
-  update implications.
-- If a paper starts from scans, review reconstruction, point clouds, model
-  repair, and simplification.
-
-The study loop should be:
-
-1. Read the recommended lecture/resource for the topic.
-2. Write down the assumptions the algorithm makes about input geometry.
-3. Connect those assumptions to rendering: memory, shading, intersections,
-   culling, LOD, streaming, and acceleration structures.
-4. Track which assumptions fail on real production assets.
-
 ## Links
 
 - [Stanford CS468 2010: Geometry Processing Algorithms](https://graphics.stanford.edu/courses/cs468-10-fall/)
-- [Stanford CS468 2012: Geometry Processing Algorithms](https://graphics.stanford.edu/courses/cs468-12-spring/)
-- [Stanford CS468 2013: Differential Geometry for Computer Science](https://graphics.stanford.edu/courses/cs468-13-spring/)
 - [CMU Discrete Differential Geometry: An Applied Introduction](https://www.cs.cmu.edu/~kmcrane/Projects/DDG/)
 - [Polygon Mesh Processing](https://www.pmp-book.org/)
 - [Skinning: Real-time Shape Deformation](https://skinning.org/)
