@@ -39,15 +39,18 @@ real-time rendering, ray tracing, and massive geometry systems.
   - First research notebook on meshes, discrete differential geometry,
     simplification, remeshing, parameterization, and deformation.
 - [BVH And Acceleration Structures](notes/bvh-and-acceleration-structures.md)
-  - First rendering-geometry notebook on bounding volumes, BVHs, SAH, traversal,
-    refitting, and CPU/GPU tradeoffs.
+  - Focused BVH reading path for acceleration structure motivation,
+    construction, SAH, traversal, fast parallel builders, refit/rebuild, and
+    Embree as a production reference.
+- [Meshlets, Clusters, LOD, And Massive Geometry](notes/meshlets-clusters-lod-and-massive-geometry.md)
+  - Modern geometry-systems reading path for meshlets, cluster hierarchies,
+    virtualized geometry, Nanite, RTX Mega Geometry, streaming, and
+    ray-tracing-aware massive geometry.
 
 ## Foundations
 
 - [Stanford CS468: Geometry Processing Algorithms](https://graphics.stanford.edu/courses/cs468-10-fall/)
   - Classic graduate course on geometry processing algorithms.
-- [Geometry Processing CSC2520](https://github.com/alecjacobson/geometry-processing-csc2520)
-  - Course materials from Alec Jacobson, with practical geometry processing topics.
 - [Discrete Differential Geometry](https://www.cs.cmu.edu/~kmcrane/Projects/DDG/)
   - Strong foundation for curvature, meshes, and differential geometry in graphics.
 - [Polygon Mesh Processing](https://www.pmp-book.org/)
@@ -70,8 +73,6 @@ real-time rendering, ray tracing, and massive geometry systems.
 
 ## Geometry For Rendering
 
-- [Scratchapixel: Introduction to Acceleration Structures](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-acceleration-structure/introduction.html)
-  - Beginner-friendly explanation of why acceleration structures are needed.
 - [Ray Tracing in One Weekend](https://raytracing.github.io/)
   - Practical introduction to ray tracing and geometry intersections.
 - Ray-triangle and ray-primitive intersection
@@ -83,16 +84,15 @@ real-time rendering, ray tracing, and massive geometry systems.
 
 ## Acceleration Structures And BVH
 
+- [Scratchapixel: Introduction to Acceleration Structures](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-acceleration-structure/introduction.html)
+  - Beginner-friendly explanation of why acceleration structures are needed.
 - [Acceleration Datastructures for Raytracing](https://geometrian.com/resources/tutorials/rtaccel/)
   - Practical overview of acceleration structures for ray tracing.
+- [PBRT v4: Bounding Volume Hierarchies](https://www.pbr-book.org/4ed/Primitives_and_Intersection_Acceleration/Bounding_Volume_Hierarchies)
+  - Detailed renderer-oriented treatment of BVH construction, SAH, flattening,
+    and traversal.
 - [Intel Embree](https://github.com/RenderKit/embree)
   - High-performance CPU ray tracing kernels and acceleration structures.
-- BVH construction
-  - Study SAH, LBVH, HLBVH, spatial splits, and build-quality tradeoffs.
-- BVH traversal
-  - Study traversal cost, ray coherence, stackless traversal, and packet tracing.
-- BVH update and refit
-  - Important for dynamic scenes, deformation, animation, and real-time ray tracing.
 
 ## Real-Time Massive Geometry
 
@@ -106,6 +106,9 @@ real-time rendering, ray tracing, and massive geometry systems.
   - Detailed technical discussion of Nanite-style massive geometry rendering.
 - [Using Mesh Shaders for Professional Graphics](https://developer.nvidia.com/blog/using-mesh-shaders-for-professional-graphics/)
   - NVIDIA introduction to mesh shaders for GPU-driven geometry pipelines.
+- [meshoptimizer](https://github.com/zeux/meshoptimizer)
+  - Practical mesh optimization library with simplification and meshlet
+    generation support.
 
 ## Libraries And Frameworks
 
@@ -155,4 +158,3 @@ For each new resource, prefer this shape:
 
 Keep the list curated. Prefer resources that help explain research questions,
 implementation tradeoffs, or modern geometry systems.
-
